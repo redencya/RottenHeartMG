@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8WyU2R/E6epBXQrpWBPQ7y1bnFhxcWYf6MuguWaGBc+CaRJWO8Se5iIBQFVaP8P7tOhipYNJ/JBYojkq9on0AQ==",
+  "success": true,
+  "projectFilePath": "D:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\redencya\\.nuget\\packages\\monogame.content.builder\\3.7.0.4\\monogame.content.builder.3.7.0.4.nupkg.sha512",
+    "C:\\Users\\redencya\\.nuget\\packages\\monogame.framework.desktopgl.core\\3.7.0.7\\monogame.framework.desktopgl.core.3.7.0.7.nupkg.sha512",
+    "C:\\Users\\redencya\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\redencya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\redencya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\redencya\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.15\\microsoft.netcore.app.host.win-x86.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}
