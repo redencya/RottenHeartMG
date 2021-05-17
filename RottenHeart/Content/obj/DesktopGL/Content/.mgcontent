@@ -5,6 +5,7 @@
   <Config />
   <SourceFiles>
     <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/effect.fx</File>
+    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/fun.fx</File>
     <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/Images/animpert.gif</File>
   </SourceFiles>
 </SourceFileCollection>

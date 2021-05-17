@@ -25,3 +25,12 @@ D:\MonoGameProjects\RottenHeart\RottenHeart\obj\Debug\netcoreapp3.1\RottenHeart.
 D:\MonoGameProjects\RottenHeart\RottenHeart\obj\Debug\netcoreapp3.1\RottenHeart.genruntimeconfig.cache
 D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\Content\Images\animpert.xnb
 D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\Content\effect.xnb
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\Content\fun.xnb
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+D:\MonoGameProjects\RottenHeart\RottenHeart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll

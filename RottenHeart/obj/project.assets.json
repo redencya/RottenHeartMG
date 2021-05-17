@@ -8,6 +8,52 @@
           "build/MonoGame.Content.Builder.targets": {}
         }
       },
+      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+        },
+        "build": {
+          "build/MonoGame.Framework.DesktopGL.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libSDL2-2.0.0.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "MonoGame.Framework.DesktopGL.Core/3.7.0.7": {
         "type": "package",
         "compile": {
@@ -85,6 +131,31 @@
         "tasks/netstandard2.0/MonoGame.Content.Builder.pdb"
       ]
     },
+    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "sha512": "rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.8.0.1641",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Framework.DesktopGL.targets",
+        "lib/net452/MonoGame.Framework.dll",
+        "lib/net452/MonoGame.Framework.xml",
+        "lib/netstandard2.0/MonoGame.Framework.dll",
+        "lib/netstandard2.0/MonoGame.Framework.xml",
+        "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.0.so.0",
+        "runtimes/linux-x64/native/libopenal.so.1",
+        "runtimes/osx/native/libSDL2-2.0.0.dylib",
+        "runtimes/osx/native/libopenal.1.dylib",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/SDL2.dll",
+        "runtimes/win-x86/native/soft_oal.dll"
+      ]
+    },
     "MonoGame.Framework.DesktopGL.Core/3.7.0.7": {
       "sha512": "DDQdsO3OreMfpKCPCjBP0hiClhvwo71bK68F8fCP0utkOKbL3dvkVfqrYinlM+QSt30dDt21yO9pMJJStikpHA==",
       "type": "package",
@@ -113,6 +184,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MonoGame.Content.Builder >= 3.7.0.4",
+      "MonoGame.Framework.DesktopGL >= 3.8.0.1641",
       "MonoGame.Framework.DesktopGL.Core >= 3.7.0.7"
     ]
   },
@@ -122,11 +194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
+      "projectUniqueName": "D:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
       "projectName": "RottenHeart",
-      "projectPath": "d:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
+      "projectPath": "D:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
       "packagesPath": "C:\\Users\\redencya\\.nuget\\packages\\",
-      "outputPath": "d:\\MonoGameProjects\\RottenHeart\\RottenHeart\\obj\\",
+      "outputPath": "D:\\MonoGameProjects\\RottenHeart\\RottenHeart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\redencya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -156,6 +228,10 @@
           "MonoGame.Content.Builder": {
             "target": "Package",
             "version": "[3.7.0.4, )"
+          },
+          "MonoGame.Framework.DesktopGL": {
+            "target": "Package",
+            "version": "[3.8.0.1641, )"
           },
           "MonoGame.Framework.DesktopGL.Core": {
             "target": "Package",
