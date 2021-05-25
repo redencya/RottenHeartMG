@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LPXCczw9dQPvrFVVQlxfF17oLjwikl2n8fEn6FRG2NpLRxd43s/i9ve9w+EQw46JVEgs4DjAnkv8h4eJ+OAOOQ==",
+  "dgSpecHash": "Vp2Qizv08N53ptqtx+Bf+i00O6wbjBJSQVb8eqeRSt+WTFoPCjwR6fYuSPRW4XTwZsCDnA4p1FSb9IHmIxlBxQ==",
   "success": true,
   "projectFilePath": "D:\\MonoGameProjects\\RottenHeart\\RottenHeart\\RottenHeart.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\redencya\\.nuget\\packages\\monogame.aseprite\\2.0.4.1\\monogame.aseprite.2.0.4.1.nupkg.sha512",
     "C:\\Users\\redencya\\.nuget\\packages\\monogame.content.builder\\3.7.0.4\\monogame.content.builder.3.7.0.4.nupkg.sha512",
     "C:\\Users\\redencya\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\redencya\\.nuget\\packages\\monogame.framework.desktopgl.core\\3.7.0.7\\monogame.framework.desktopgl.core.3.7.0.7.nupkg.sha512",

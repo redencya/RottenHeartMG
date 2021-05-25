@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "MonoGame.Aseprite/2.0.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Aseprite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Aseprite.dll": {}
+        }
+      },
       "MonoGame.Content.Builder/3.7.0.4": {
         "type": "package",
         "build": {
@@ -111,6 +120,22 @@
     }
   },
   "libraries": {
+    "MonoGame.Aseprite/2.0.4.1": {
+      "sha512": "84Xw+x5t0cwHBps16FOgYGkggmWQ/YEqrNNbrOJ0ShjBguoXZszHNouXYjVGgTgE+43RMvByubg5TKg/c0c1Zw==",
+      "type": "package",
+      "path": "monogame.aseprite/2.0.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.txt",
+        "contentFiles/net45/MonoGame.Aseprite.ContentPipeline.dll",
+        "contentFiles/netstandard2.0/MonoGame.Aseprite.ContentPipeline.dll",
+        "lib/net45/MonoGame.Aseprite.dll",
+        "lib/netstandard2.0/MonoGame.Aseprite.dll",
+        "monogame.aseprite.2.0.4.1.nupkg.sha512",
+        "monogame.aseprite.nuspec"
+      ]
+    },
     "MonoGame.Content.Builder/3.7.0.4": {
       "sha512": "EfPrCHTWQ4O5G/XIfGqWx1J9vvI4QrUI8SjBCIT8Aeepl0y2oi1+YjvmBbxjFvJb2uGkYnLq4GCwXuquMi3TYw==",
       "type": "package",
@@ -183,6 +208,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "MonoGame.Aseprite >= 2.0.4.1",
       "MonoGame.Content.Builder >= 3.7.0.4",
       "MonoGame.Framework.DesktopGL >= 3.8.0.1641",
       "MonoGame.Framework.DesktopGL.Core >= 3.7.0.7"
@@ -225,6 +251,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "MonoGame.Aseprite": {
+            "target": "Package",
+            "version": "[2.0.4.1, )"
+          },
           "MonoGame.Content.Builder": {
             "target": "Package",
             "version": "[3.7.0.4, )"

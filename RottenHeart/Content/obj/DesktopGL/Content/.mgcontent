@@ -4,8 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/effect.fx</File>
-    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/fun.fx</File>
-    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/Images/animpert.gif</File>
+    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/Pert.png</File>
+    <File>D:/MonoGameProjects/RottenHeart/RottenHeart/Content/Rock.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -8,12 +8,21 @@
     ".NETCoreApp,Version=v3.1": {
       "RottenHeart/1.0.0": {
         "dependencies": {
+          "MonoGame.Aseprite": "2.0.4.1",
           "MonoGame.Content.Builder": "3.7.0.4",
           "MonoGame.Framework.DesktopGL": "3.8.0.1641",
           "MonoGame.Framework.DesktopGL.Core": "3.7.0.7"
         },
         "runtime": {
           "RottenHeart.dll": {}
+        }
+      },
+      "MonoGame.Aseprite/2.0.4.1": {
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Aseprite.dll": {
+            "assemblyVersion": "2.0.4.1",
+            "fileVersion": "2.0.4.1"
+          }
         }
       },
       "MonoGame.Content.Builder/3.7.0.4": {},
@@ -128,6 +137,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MonoGame.Aseprite/2.0.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-84Xw+x5t0cwHBps16FOgYGkggmWQ/YEqrNNbrOJ0ShjBguoXZszHNouXYjVGgTgE+43RMvByubg5TKg/c0c1Zw==",
+      "path": "monogame.aseprite/2.0.4.1",
+      "hashPath": "monogame.aseprite.2.0.4.1.nupkg.sha512"
     },
     "MonoGame.Content.Builder/3.7.0.4": {
       "type": "package",
